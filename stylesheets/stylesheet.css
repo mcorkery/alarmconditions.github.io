@@ -63,16 +63,8 @@ table {
   color: #fff;
 
 }
+
  
-.top-nav-bar a:hover {
-  background-color: #005f5f;
-}
- 
-.top-nav-bar a.active {
-  background-color: #fff;
-  color: #444;
-  cursor: default;
-}
  
 @media screen and (min-width: 600px) {
   .top-nav-bar li {
@@ -94,7 +86,7 @@ table {
   top: 0;
   left: 0;
   z-index: 9999;
-  width: 100%;
+  width: 30%;
   height: 10px;
   background-color: #D0D0D0;
 }
