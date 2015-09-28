@@ -45,6 +45,13 @@
          <li><a href="#alarmConditions">Alarm Conditions</a></li><br/>
         <li><a href="#display1st">Display 1st Alarm Option</a></li><br/> 
         <li><a href="#ackAlarm">Acknowledging an Alarm</a></li> <br/>
+        <li><a href="#globalAck">Globally Acknowledging an Alarm</a></li> <br/>
+        <li><a href="#indiAck">Individually Acknowledging an Alarm</a></li> <br/>
+        <li><a href="#silencing">Silencing an Alarm</a></li> <br/>
+        <li><a href="#reset">Resetting the System</a></li> <br/>
+        <li><a href="#disableAPoint">Disabling a Point that Remains in Alarm</a></li><br/>
+        <li><a href="#procedure">Procedure</a></li> <br/>
+        
       </ul>
 </nav>
       	
@@ -92,6 +99,7 @@
 					Individual acknowledge must be selected if the panel is providing proprietary receiving service in accordance with NFPA72.
 				</article>
 				<article>
+						<a name="globalAck"></a>
 					<h2>Globally Acknowledging an Alarm</h2>
 						Use the following procedure if the Global Acknowledge option is enabled on your system.
 						<ol>
@@ -106,6 +114,7 @@
 						</ol>
 				</article>
 				<article>
+						<a name="indiAck"></a>
 					<h2>Individually Acknowledging an Alarm</h2>
 						Use the following procedure if the Individual Acknowledge option is enabled on your system.
 						<ol>
@@ -120,6 +129,7 @@
 				</article>
 					
 				<article>
+						<a name="silencing"></a>
 					<h2>Silencing an Alarm</h2>
 						When an alarm condition exists, various signals, auxiliary relays, the city connection,
 						and the tone-alert may activate. The ALARM SILENCE key turns OFF all devices that are programmed to turn off when it is pressed.  Typically, this will be the audible notification appliances.<br/>
@@ -149,6 +159,7 @@
 							</article>
 				</article>
 				<article>
+						<a name="resetting"></a>
 					<h2>Resetting the System</h2>
 					The function of the SYSTEM RESET key depends on whether active alarms are present at the time the key is pressed.
 						<ul>
@@ -160,6 +171,7 @@
 						</ul>
 				</article>		
 						<article>
+								<a name="resetWithAlarms"></a>
 						<h3>Resetting a System with Active Alarms</h3> 
 						Devices in alarm can be reset using the SYSTEM RESET key.  Doing this allows the system to return to a normal state following alarm activation.<br/>
 						Follow these steps to perform a System Reset when alarms are present.
@@ -180,6 +192,7 @@
 						</ol>
 						</article>
 						<article>
+								<a name="hardwareReset"></a>
 						<h3>Performaing a Hardware Reset</h3>
 						A hardware reset reinitializes the state of certain hardware components and is typically used to reset a Class A Trouble, for example on a MAPNET, 
 						IDNet, or RUI channel after the problem causing the trouble is resolved.  If you attempt to perform a hardware reset without first fixing the problem causing the trouble, 
@@ -187,6 +200,7 @@
 						To perform a hardware reset, press the SYSTEM RESET key when no alarms are present.
 						</article>
 						</article>
+							<a name="disableAPoint"></a>
 						<h2>Disabling a Point that Remains in Alarm</h2>
 						<article>
 						If a device remains in alarm and no alarm condition exists, the FACP provides a way to inhibit alarm reporting for the malfunctioning point. 
@@ -207,6 +221,7 @@
 						Without this option enabled, removing the sensor would cause a trouble preventing the reset of the city circuit.<br/><br/><strong>NOTE: Service Reset is not a UL 
 						Approved option and enabling this option on the panel invalidates the panel’s UL certification.</strong></li>
 						</ul>
+							<a name="procedure"></a>
 						<h3>Procedure</h3>
 						To disable a point in alarm, follow these steps:
 						<ol>
@@ -227,8 +242,7 @@
     <div id="footer_wrap" class="outer">
       <footer class="inner">
          <img src="https://cloud.githubusercontent.com/assets/14295611/10099045/ff172db2-637d-11e5-89ea-58872e1c3ce8.png" alt="Simplex"><br/>
-        <p class="copyright">Cautionsandwarnings.GitHub.io maintained by <a href="https://github.com/mcorkery">mcorkery</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p><br/>
+
         <strong><small>
 		2015 Tyco Fire Protection Products. All rights reserved. All specifications and other information shown were current as of document revision date and are subject to change without notice.
 		TYCO, SIMPLEX, and the product names listed in this material are marks and/or registered marks. Unauthorized use is strictly prohibited.</strong></small>
