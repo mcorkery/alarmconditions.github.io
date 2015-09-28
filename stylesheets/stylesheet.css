@@ -45,7 +45,7 @@ table {
 }
 .top-nav-bar ul {
   list-style: none;
-  background-color: #444;
+  background-color: #D0D0D0;
   text-align: right;
   padding: 0;
   margin: 0;
@@ -61,8 +61,7 @@ table {
 .top-nav-bar a {
   text-decoration: none;
   color: #fff;
-  display: block;
-  transition: .3s background-color;
+
 }
  
 .top-nav-bar a:hover {
